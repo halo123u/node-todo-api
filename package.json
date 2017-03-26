@@ -4,12 +4,16 @@
   "description": "A simple todo api",
   "main": "index.js",
   "scripts": {
+    "start": "node server/server.js",
     "test": "mocha server/**/*.test.js",
     "test-watch":"nodemon --exec \"npm test\" "
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/halo123u/node-todo-api.git"
+  },
+  "engines": {
+    "node": "6.3.1"
   },
   "author": "Oswaldo Almazo",
   "license": "MIT",
